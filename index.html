@@ -1,1 +1,240 @@
-"Hello World, Min." 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <meta name="description" content="Min Oh is an Applied Scientist at Microsoft Research.">
+	<title>Min Oh</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+	<?php 
+		if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+		$ip=$_SERVER['HTTP_CLIENT_IP'];}
+		elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+		$ip=$_SERVER['HTTP_X_FORWARDED_FOR'];} else {
+		$ip=$_SERVER['REMOTE_ADDR'];}
+	?>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91744103-1', 'auto');
+  ga('send', 'pageview', {
+      'dimension1':  '<?=$ip;?>'
+    });
+
+</script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	
+</head>
+<body>
+
+  <div id="wrapper">
+		<div id="top-left">
+			<a id="photo" href="" target="_blank"><img src="Min.jpg" alt="Profile Photo of Min Oh"></a>
+		</div>
+
+		<div id="top-right">
+            <br/>
+			<h1><p>Min Oh</p></h1>
+
+			<ul>
+				<li>Ph.D. in Computer Science</li>
+				<li>Applied Scientist at Microsoft Research</li>
+			</ul>
+            
+			<ul>
+				<li>Email: <a href="mailto:minoh@vt.edu">minoh@vt.edu</a> / Linkedin: <a href="https://www.linkedin.com/in/~minoh/"><i class="fab fa-linkedin" style="font-size:24px"></i></a></li>
+			</ul>
+
+			<p>Curriculum Vitae: <a href="MinOh_cv.pdf">PDF</a> <small><i> (Last Update: 05/15/2022) </i> </small></p>
+		</div>
+
+		<!-- About Me -->
+		<div class="clear"></div>
+		<h2>About Me</h2>
+		<p>I'm an Applied Scientist at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>. My research interests lie in machine intelligence to accelerate drug discovery and precision medicine. I received Ph.D. in <a href="https://www.cs.vt.edu/">Computer Science</a> from <a href="https://www.vt.edu/">Virginia Tech</a>, advised by Professor <a href="http://people.cs.vt.edu/~lqzhang/">Liqing Zhang</a>. The doctoral dissertation focused on deep learning for enhancing precision medicine. </p>
+		<p>While pursuing Ph.D., I worked at Microsoft for four summers as a Research Intern <medium>(<a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>, Healthcare NExT Group; 2017 and 2018)</medium> and as a Data & Applied Scientist Intern <medium>(<a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>, Networking Group; 2019 and 2020)</medium>.
+		
+		<p>Before came to Virginia Tech, I was a Research Associate in the <a href="http://databio.gachon.ac.kr/">Data mining & Bioinformatics Laboratory</a> where my advisor was Professor <a href= "http://professor.gachon.ac.kr/main/professor.jsp?Forum_seq=63092">Youngmi Yoon</a> <medium>(Mar 2015 - Aug 2016)</medium> and I received my bachelor's degree in Computer Engineering <medium>(Feb 2015)</medium> at <a href="http://www.gachon.ac.kr/english/">Gachon University</a>, South Korea.</p>
+
+	  	<!-- News -->
+		<div class="clear"></div>
+		<h2>News</h2>
+		<table>
+			<tr><td>May</td><td> 2022</td><td><span style="padding-left:25px"></span> </td> <td> Joined Microsoft Research as Applied Scientist <medium>(AI Architecture and Strategy)</medium></td><tr>
+			<tr><td>July</td><td> 2021</td><td><span style="padding-left:25px"></span> </td> <td> Joined Microsoft as Data & Applied Scientist <medium>(Azure Networking)</medium></td><tr>
+			<tr><td>May</td><td> 2021</td><td><span style="padding-left:25px"></span> </td> <td> Successfully defended doctoral dissertation! </td><tr>
+			<tr><td>Nov.</td><td> 2020</td><td><span style="padding-left:25px"></span> </td> <td> Gaduate fellowship awarded from Department of Computer Science @ Virginia Tech </td><tr>
+			<tr><td>June</td><td> 2020</td><td><span style="padding-left:25px"></span> </td> <td> Joined Microsoft as Data & Applied Scientist Intern <medium>(Azure Networking</medium> </td><tr>
+			<tr><td>June</td><td> 2019</td><td><span style="padding-left:25px"></span> </td> <td> Joined Microsoft as Data & Applied Scientist Intern <medium>(Azure Networking)</medium> </td><tr>
+			<tr><td>Nov.</td><td> 2018</td><td><span style="padding-left:25px"></span> </td> <td> Research grant awarded from Office of the Executive Vice President and Provost @ Virginia Tech </td><tr>
+			<tr><td>June</td><td> 2018</td><td><span style="padding-left:25px"></span> </td> <td> Joined Microsoft Research as Research Intern <medium>(Healthcare NExT)</medium> </td><tr>
+			<tr><td>June</td><td> 2017</td><td><span style="padding-left:25px"></span> </td> <td> Joined Microsoft Research as Research Intern <medium>(Healthcare NExT)</medium> </td><tr>
+		</table>
+		
+		<!-- Publications -->
+        <div class="clear"></div>
+		<h2>Publications</h2>
+		<h4><medium> <i class="fas fa-star" style="font-size:10px"></i> First authorship only</medium> <small>(see <a href="https://scholar.google.com/citations?user=tUomquAAAAAJ&hl=en">Google Scholar Profile</a> or <a href="MinOh_cv.pdf">CV</a> for the complete list of publications)</small></h4>
+		<!-- Preprints
+		<ol class="classic" type="1"> Preprints
+			<li class="classic">
+				<a href="https://www.biorxiv.org/content/10.1101/785626v1">DeepMicro: Deep Representation Learning for Disease Prediction Based on Microbiome Data</a> <br>
+				<b>Min Oh</b> and Liqing Zhang <br>
+				<i>bioRxiv</i> (2019): 785626
+			</li>
+		</ol>
+		-->
+		
+		<ol class="classic" type="1"> Preprints
+			<li class="classic">
+				<a href="https://www.biorxiv.org/content/10.1101/2021.05.06.443032v1">DeepGeni: Deep generalized interpretable autoencoder elucidates gut microbiota for better cancer immunotherapy</a> </br>
+				<b>Min Oh</b> and Liqing Zhang <br>
+				<i><b> Biorxiv </b></i>
+			</li>
+		
+		<ol class="classic" type="1"> Peer-Reviewed Journals
+			<li class="classic">
+				<a href="https://www.nature.com/articles/s41598-022-11363-w">Generalizing predictions to unseen sequencing profiles via deep generative models</a> <br>
+				<b>Min Oh</b> and Liqing Zhang <br>
+				<i><b>Scientific Reports</b></i> 12.1 (2022): 7151 </li>
+			<li class="classic">
+				<a href="https://www.nature.com/articles/s41598-020-63159-5">DeepMicro: Deep Representation Learning for Disease Prediction Based on Microbiome Data</a> <br>
+				<b>Min Oh</b> and Liqing Zhang <br>
+				<i><b>Scientific Reports</b></i> 10.1 (2020): 6026 </li>
+			<li class="classic">
+				<a href="https://www.sciencedirect.com/science/article/pii/S0160412019301874">Effect of Antibiotic Use and Composting on Antibiotic Resistance Gene Abundance and Resistome Risks of Soils Receiving Manure-derived Amendments</a> <br>
+				Chaoqi Chen*, Christine Pankow*, <b>Min Oh</b>*, Lenwood Heath, Liqing Zhang, Pang Du, Kang Xia, Amy Pruden <br>
+				<i><b>Environment International</b></i> 128 (2019): 233-243 <br><medium>(*Equal contribution)</medium> </li>
+			<li class="classic">
+				<a href="https://academic.oup.com/femsec/advance-article/doi/10.1093/femsec/fiy079/4987204">MetaCompare: A Computational Pipeline for Prioritizing Environmental Resistome Risk</a> <br>
+				<b>Min Oh</b>, Amy Pruden, Chaoqi Chen, Lenwood Heath, Kang Xia, Liqing Zhang <br>
+				<i><b>FEMS Microbiology Ecology</b></i> 94.7 (2018): fiy079</li>
+			<li class="classic">
+				<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1558-3">Drug Voyager: A Computational Platform for Exploring Unintended Drug Action</a> <br>
+				<b>Min Oh</b>, Jaegyoon Ahn, Taekeon Lee, Giup Jang, Chihyun Park, Youngmi Yoon <br>
+				<i><b>BMC Bioinformatics</b></i> 18.1 (2017): 131</li>
+			<li class="classic">
+				<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0111668">A Network-based Classification Model for Deriving Novel Drug-Disease Associations and Assessing Their Molecular Actions</a> <br>
+				<b>Min Oh</b>, Jaegyoon Ahn, Youngmi Yoon <br>
+				<i><b>Plos One</b></i> 9.10 (2014): e111668</li>
+			<li class="classic">
+				<a href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02321027">Drug-Repositioning Based on Distance Features on the PPI Network</a> <br>
+				<b>Min Oh</b> and Youngmi Yoon <br>
+				<i><b>Journal of Korean Institute of Information Technology (JKIIT)</b></i> 11.12 (2013): 205-211</li>
+			
+		</ol>
+		<ul class="classic"> Peer-Reviewed Abstract & Posters
+			<li class="classic">
+				<a href="https://eventpilotadmin.com/web/page.php?page=IntHtml&project=ASHG19&id=1921501">Unsupervised Deep Representation Learning for Genetic Variant-based Clustering of Individuals</a> <br>
+				<b>Min Oh</b> and Erdal Cosgun <br>
+				<i><b>ASHG 2019</b></i>, Houston, USA, October 2019</li>
+			<li class="classic">
+				<a href="https://www.microsoft.com/en-us/research/publication/exploring-the-consistency-of-the-quality-scores-with-machine-learning-for-next-generation-sequencing-experiments/">Exploring the Consistency of the Quality Scores with Machine Learning for Next-Generation Sequencing Experiments</a> <br>
+				<b>Min Oh</b> and Erdal Cosgun <br>
+				<i><b>ASHG 2018</b></i>, San Diego, USA, October 2018</li>
+			<li class="classic">
+				<a href="https://www.iscb.org/cms_addon/conferences/ismbeccb2015/posterlist.php?cat=O">A Novel Generation of Drug Pathway Elucidates New Indication of Existing Drugs</a> <br>
+				<b>Min Oh</b> and Youngmi Yoon <br>
+				<i><b>ISMB 2015</b></i>, Dublin, Ireland, July 2015</li>
+			<li class="classic">
+				<a href="https://www.iscb.org/cms_addon/conferences/ismb2014/posterlist.php?cat=O">A Novel Method for Elucidating microRNA and Transcription Factor Co-Regulatory Networks in Prostate Cancer</a> <br>
+				<b>Min Oh</b> and Youngmi Yoon  <br>
+				<i><b>ISMB 2014</b></i>, Boston, USA, July 2014</li>
+			<li class="classic">
+				<a href="https://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=O">Network Based Classification Model for Deriving Novel Drug-Disease Associations</a> <br>
+				<b>Min Oh</b> and Youngmi Yoon <br>
+				<i><b>ISMB 2013</b></i>, Berlin, Germany, July 2013
+		</ul>
+		
+		<!-- Presentation -->
+		<div class="clear"></div>
+		<h2>Talks</h2>
+		<ul class="classic">
+			<li class="presentation"><b>Unsupervised Deep Learning for Next Generation Sequencing Data</b> <br>
+			<i>Microsoft Research, Redmond, Washington, USA, August 2018</i></li>
+		<ul class="classic">
+			<li class="presentation"><b>Enabling Machine Learning for Variant Call Format Data Analysis</b> <br>
+			<i>Microsoft Research, Redmond, Washington, USA, August 2017</i></li>
+		<ul class="classic">
+			<li class="presentation"><b>Computational Drug Repositioning Strategy & Its Application</b> <br>
+			<i>Utah-Inha DDS & Advanced Therapeutics Research Center, Incheon, South Korea, March 2015</i></li>
+		</ul>
+		
+		<!-- Refree 
+		<div class="clear"></div>
+		<h2>Professional Activity</h2>
+		<ul class="classic"> Journal Refree for
+			<li class="presentation">Oncotarget</li>
+		</ul>
+		<ul class="classic"> Member of 
+			<li class="presentation">International Society for Computational Biology (ISCB), 2013 - current</li>
+		</ul>
+		-->
+		
+		<!-- Skills 
+		<div class="clear"></div>
+		<h2>Skills</h2>
+		<p>I'm proficient in C++ and Familiar with C, Java, Python, Javascript, JSP, HTML/CSS and SQL. Also, I have many experiences with tools for machine learning, statistics and network simulation, including Weka, R, SPSS, MATLAB and Cytoscape. </p>
+		-->
+		<!-- Software 
+		<div class="clear"></div>
+		<h2>Software</h2>
+		<ul class="classic">
+			<li class="classic"><b>Drug Voyager</b></li>
+			<li class="classic"><b></b></li>
+		</ul>
+		-->
+		
+		<!-- Teaching Experiences -->
+		<div class="clear"></div>
+		<h2>Teaching Assistantships</h2>
+		<ul class="classic">
+			<li class="presentation"><b>Advanced Machine Learning</b> (CS 5824) - Fall 2019</li>
+			<li class="presentation"><b>Introductory Data Analytics and Visualization</b> (CS 3654) - Spring 2018</li>
+			<li class="presentation"><b>Introduction to Programming in C++</b> (CS 1044) - Fall 2016, Spring 2017</li>
+			
+		</ul>
+		
+		<!-- Courses -->
+		<!--
+		<div class="clear"></div>
+		<h2>Selected Courses</h2>
+		<ul class="classic">
+			<li class="presentation"><b>Deep Learning</b> (CS 6524), Prof. Huang, Fall 2019</li>
+			<li class="presentation"><b>Advanced Machine Learning</b> (CS 5824), Prof. Huang, Fall 2017</li>
+			<li class="presentation"><b>Information Visualization</b> (CS 5764), Prof. North, Fall 2017</li>
+			<li class="presentation"><b>Data Analytics II</b> (CS 5526), Prof. Huang, Spring 2017</li>
+			<li class="presentation"><b>Data Analytics I</b> (CS 5525), Prof. Reddy, Fall 2016</li>
+			<li class="presentation"><b>Algorithms in Bioinformatics</b> (CS 5124), Prof. Zhang, Fall 2016</li>
+			
+		</ul>
+		-->
+		
+		<!-- Social service 
+		<div class="clear"></div>
+		<h2>Social Service</h2>
+		<ul class="classic">Military Service
+			<li class="classic"> <i>Republic of Korea Army</i>, Sergeant, July 2008 - June 2010 </il>
+		</ul>
+		-->
+		
+
+		<div class="clear"></div>
+		<p>Copyright &copy; Min Oh (오민)</p>
+
+  </div>
+
+<script type='text/javascript'>
+ _gaq.push(['_setCustomVar', 1, 'IP', '<?=$ip;?>', 1]);
+</script>
+
+</body>
+</html>
